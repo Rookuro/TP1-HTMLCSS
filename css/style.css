@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(grey,white);
+}
+
+@font-face {
+    font-family: 'Nordic Alternative';
+    src: url("../Nordic/NordicAlternativeRegular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url("../Poppins/Poppins-SemiBold.ttf");
+}
+
+.title1 {
+    font-family: 'Nordic Alternative';
+    text-align: center;
+}
+
+.p1 {
+    font-family: 'Poppins SemiBold';
+    text-align: center;
+}
+
+.p2 {
+    font-family: 'Nordic Alternative';
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20rem;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 5px solid #A20A17;
+    overflow: hidden;
+    background-color: black;
+    height: 60px;
+    width: 209px;
+    position: relative;
+    margin-top: -353px;
+}
+
+.button p {
+    margin-top: 20px;
+    font-family: 'Nordic Alternative';
+
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #A20A17;
+    border-radius: 50% 50% 0 0;
+    transition: all .5s;
+}
+
+a:hover::before {
+    top: 0;
+    border-radius: 0;
+}
+
+.kratos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kratos1 {
+    margin-top: -20px;
+}
+
+
+

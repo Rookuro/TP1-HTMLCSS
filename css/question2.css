@@ -1,0 +1,47 @@
+body{
+    background-image: url("../img/godofwar2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Nordic Alternative';
+    src: url("../Nordic/NordicAlternativeRegular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url("../Poppins/Poppins-SemiBold.ttf");
+}
+
+
+.title2 {
+    font-family: 'Nordic Alternative';
+    text-align: center;
+}
+
+.bloc2 {
+    font-family: 'Poppins SemiBold';
+    text-align: center;
+}
+
+.reponse {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.reponse img {
+    margin-top: 100px;
+    width: 80%;
+    height: 80%;
+}
+
+.reponse p {
+    text-align: center;
+    margin-top: -95px;
+    color: white;
+}
