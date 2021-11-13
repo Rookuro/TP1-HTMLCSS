@@ -35,9 +35,9 @@ a {
 }
 
 .reponse img {
-    margin-top: 100px;
-    width: 80%;
-    height: 80%;
+    margin-top: 180px;
+    /* width: 80%; */
+    height: 128px;
 }
 
 .reponse p {
